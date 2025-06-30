@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- SEO Meta Tags -->
+		<title>Mohammed Salman - AI/ML Engineer | Portfolio</title>
+		<meta name="description" content="Mohammed Salman - AI/ML Engineer specializing in Deep Learning, Computer Vision, and NLP. Final year CSE student with expertise in TensorFlow, OpenCV, and real-time AI applications." />
+		<meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, Computer Vision, NLP, TensorFlow, Python, Portfolio" />
+		<meta name="author" content="Mohammed Salman" />
+		
+		<!-- Open Graph Meta Tags -->
+		<meta property="og:title" content="Mohammed Salman - AI/ML Engineer Portfolio" />
+		<meta property="og:description" content="Explore my AI/ML projects including smart waste classification, resume screening, and sign language recognition systems." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://mohammedsalman.dev" />
+		
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Mohammed Salman - AI/ML Engineer" />
+		<meta name="twitter:description" content="AI/ML Engineer specializing in Deep Learning and Computer Vision" />
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		line-height: 1.6;
+		color: #1f2937;
+		overflow-x: hidden;
+	}
+
+	/* Smooth scroll for anchor links */
+	html {
+		scroll-padding-top: 80px;
+	}
+
+	/* Custom scrollbar */
+	::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #f1f5f9;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: linear-gradient(135deg, #3b82f6, #7c3aed);
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: linear-gradient(135deg, #2563eb, #6d28d9);
+	}
+</style>
