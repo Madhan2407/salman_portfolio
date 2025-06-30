@@ -1,0 +1,244 @@
+---
+---
+
+<section id="about" class="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p class="about-description">
+          I'm a final-year Computer Science student specializing in <strong>Artificial Intelligence and Machine Learning</strong>. 
+          I've developed several AI projects, including intelligent resume screening systems, smart waste classification, 
+          and sign language recognition tools.
+        </p>
+        <p class="about-description">
+          Currently exploring opportunities in <strong>AI Engineering</strong>, with a strong focus on deploying 
+          real-time applications using Python, TensorFlow, OpenCV, and NLP frameworks. I'm passionate about 
+          building AI solutions that solve real-world problems and make a meaningful impact.
+        </p>
+        <p class="about-description">
+          Apart from coding, I enjoy tech blogging, exploring new AI tools, participating in hackathons, 
+          and sharing what I learn with the developer community through open-source contributions.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h3>10+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat">
+            <h3>3+</h3>
+            <p>Years of Learning</p>
+          </div>
+          <div class="stat">
+            <h3>5+</h3>
+            <p>Technologies Mastered</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="image-placeholder">
+          <div class="ai-icon">🤖</div>
+          <div class="floating-elements">
+            <div class="element python">🐍</div>
+            <div class="element tensorflow">🧠</div>
+            <div class="element data">📊</div>
+            <div class="element code">💻</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(135deg, #3b82f6, #7c3aed);
+    border-radius: 2px;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-description strong {
+    color: #2563eb;
+    font-weight: 600;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .stat {
+    text-align: center;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .stat:hover {
+    transform: translateY(-5px);
+  }
+
+  .stat h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat p {
+    color: #6b7280;
+    font-weight: 500;
+  }
+
+  .about-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-placeholder {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-icon {
+    font-size: 6rem;
+    animation: pulse 2s infinite;
+  }
+
+  .floating-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .element {
+    position: absolute;
+    font-size: 2rem;
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: orbit 10s linear infinite;
+  }
+
+  .element.python {
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
+  }
+
+  .element.tensorflow {
+    top: 10%;
+    right: 10%;
+    animation-delay: -2.5s;
+  }
+
+  .element.data {
+    bottom: 10%;
+    right: 10%;
+    animation-delay: -5s;
+  }
+
+  .element.code {
+    bottom: 10%;
+    left: 10%;
+    animation-delay: -7.5s;
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+
+  @keyframes orbit {
+    0% { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    100% { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+  }
+
+  @media (max-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+    }
+
+    .stats {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .image-placeholder {
+      width: 250px;
+      height: 250px;
+    }
+
+    .ai-icon {
+      font-size: 4rem;
+    }
+
+    .element {
+      width: 40px;
+      height: 40px;
+      font-size: 1.5rem;
+    }
+  }
+</style>

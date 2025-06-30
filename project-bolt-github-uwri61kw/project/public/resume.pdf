@@ -1,0 +1,186 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Resources <<
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/Contents 6 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+6 0 obj
+<<
+/Length 2800
+>>
+stream
+BT
+/F1 20 Tf
+50 750 Td
+(MOHAMMED SALMAN P) Tj
+0 -30 Td
+/F2 12 Tf
+(mohammed.salman.p.2004@gmail.com | +91 80728 67056 | Chennai, India) Tj
+0 -15 Td
+(LinkedIn: linkedin.com/in/mohammed-salman-p-484a9431b | GitHub: github.com/Mohammed-ofc) Tj
+
+0 -40 Td
+/F1 16 Tf
+(CAREER OBJECTIVE) Tj
+0 -20 Td
+/F2 11 Tf
+(Passionate AI/ML Engineer with a B.E. in CSE \(AI & ML\) and 1 year of experience) Tj
+0 -15 Td
+(developing intelligent systems at UNAI Tech. Skilled in NLP, computer vision, and) Tj
+0 -15 Td
+(predictive modeling, seeking to contribute to impactful AI solutions in a growth-focused company.) Tj
+
+0 -35 Td
+/F1 16 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -20 Td
+/F1 12 Tf
+(Project Coordinator, UNAI TECH) Tj
+200 0 Td
+(Feb 2023 - Present) Tj
+-200 -15 Td
+/F2 11 Tf
+(• Developed AI-based projects and support learning and automation.) Tj
+0 -12 Td
+(• Led end-to-end project development using Python, Streamlit, and ML libraries.) Tj
+0 -12 Td
+(• Managed project teams, conducted AI workshops, and deployed real-time applications.) Tj
+0 -12 Td
+(• Trained over 600 students via hands-on sessions on AI tools and concepts.) Tj
+
+0 -30 Td
+/F1 16 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F1 12 Tf
+(Smart Waste Classification System) Tj
+0 -15 Td
+/F2 11 Tf
+(Developed a deep learning model using EfficientNetB0 to classify waste into hazardous,) Tj
+0 -12 Td
+(organic, and recyclable. Achieved 96% accuracy; deployed real-time prediction interface.) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Sign Language Recognition System) Tj
+0 -15 Td
+/F2 11 Tf
+(Built a real-time hand gesture recognition system using MediaPipe for hand landmarks) Tj
+0 -12 Td
+(and CNN for gesture classification. Achieved 100% accuracy on gestures A-E.) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Intelligent Resume Screening System) Tj
+0 -15 Td
+/F2 11 Tf
+(Built a Streamlit web app that extracts text from PDFs and ranks resumes by matching) Tj
+0 -12 Td
+(job descriptions using BERT embeddings and keyword-based skill scoring.) Tj
+
+0 -30 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 12 Tf
+(Bachelor of Engineering \(B.E.\) - CSE \(AI & ML\)) Tj
+200 0 Td
+(Sep 2022 - Present) Tj
+-200 -15 Td
+/F2 11 Tf
+(Gojan School of Business and Technology, Chennai) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Higher Secondary Education) Tj
+200 0 Td
+(2020 - 2022) Tj
+-200 -15 Td
+/F2 11 Tf
+(Dhanalakshmi Matriculation Higher Secondary School, Chennai) Tj
+
+0 -30 Td
+/F1 16 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F2 11 Tf
+(• Programming: Python, C \(Basics\)) Tj
+0 -12 Td
+(• AI/ML Tools: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, Streamlit, OpenCV) Tj
+0 -12 Td
+(• Frameworks & Libraries: TensorFlow \(Basic\), OpenCV, MediaPipe, Streamlit) Tj
+0 -12 Td
+(• Other Tools: Git & GitHub, SQLite, Google Colab, Jupyter Notebook, REST APIs) Tj
+
+0 -30 Td
+/F1 16 Tf
+(ACHIEVEMENTS) Tj
+0 -20 Td
+/F2 11 Tf
+(• Student President for AIML & CSBS department) Tj
+0 -12 Td
+(• Conducted 5+ AI workshops and 10+ webinars for student communities) Tj
+0 -12 Td
+(• Project Coordinator and built a 600+ member AI learner base) Tj
+ET
+endstream
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000000351 00000 n 
+0000000423 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+3275
+%%EOF
